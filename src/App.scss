@@ -1,0 +1,114 @@
+:root:root {
+  --adm-color-primary: #1cae82;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f5f7fa;
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+.adm-list.avatar-list {
+  --border-bottom: none;
+  margin-bottom: 20px;
+}
+.adm-form.info-form {
+  .adm-form-footer {
+    padding: 20px 0;
+    .adm-button {
+      --border-radius: 0;
+    }
+  }
+}
+
+.home-page {
+  .adm-nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    z-index: 100;
+  }
+}
+
+.adm-tab-bar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: solid 1px var(--adm-border-color);
+  background-color: #f2f2f2;
+  .adm-badge-wrap {
+    .adm-tab-bar-item-icon {
+      height: 31px;
+    }
+  }
+}
+.per-center {
+  .adm-result {
+    padding: 20px 12px;
+    .adm-result-icon {
+      width: 52px;
+      height: 52px;
+      padding: 0;
+      margin: 0 auto 10px;
+    }
+    .adm-result-description {
+      margin-top: 0;
+    }
+  }
+  .adm-button {
+    display: block;
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
+}
+.adm-space {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 12px;
+  .adm-card {
+    .adm-card-header {
+      .adm-avatar.adm-image {
+        margin-right: 10px;
+      }
+    }
+    .adm-list-item-content-main {
+      padding: 0;
+      line-height: 18px;
+    }
+  }
+}
+
+#chat-page {
+  .adm-list {
+    margin-top: 8px;
+  }
+  .chat-me {
+    .adm-list-item-content-extra {
+      flex-basis: auto;
+    }
+    .adm-list-item-content-main {
+      text-align: right;
+    }
+  }
+  .chat-input {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .adm-grid {
+    .adm-grid-item {
+      text-align: center;
+    }
+  }
+}
